@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { MdOutlineSort } from "react-icons/md";
 
-type Props = {};
 const links = [
   {
     link: "/",
@@ -24,7 +23,7 @@ const links = [
   },
 ];
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
   return (
     <>
