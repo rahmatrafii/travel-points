@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="relative max-w-[1300px] bg-[#00A3CB] py-16 md:py-24  px-4 lg:px-10">
+    <footer className="relative max-w-[1300px] bg-[#00A3CB] py-16 md:py-24  px-4 lg:px-10 mx-auto">
       <h2 className="absolute left-1/2 -translate-x-1/2 top-[0px] text-white text-[45px] sm:text-[60px] md:text-[90px] lg:text-[130px] xl:text-[160px] z-[0] font-bold opacity-20">
         SUBSCRIBE
       </h2>
